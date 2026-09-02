@@ -130,7 +130,7 @@ export function SalesPage({ variant }: { variant: HeroVariant }) {
         <Link className="brand" href="#top" aria-label="Ir ao início">
           <span className="brand-mark">MN</span>
           <span>
-            <strong>Magdiel Negrão</strong>
+            <strong>Magdiel</strong>
             <small>Método Arquitetura da Decisão</small>
           </span>
         </Link>
@@ -158,7 +158,7 @@ export function SalesPage({ variant }: { variant: HeroVariant }) {
             <div className="hero-frame">
               <Image
                 src={heroPortrait}
-                alt="Magdiel Negrão ao lado de um tabuleiro de xadrez"
+                alt="Magdiel ao lado de um tabuleiro de xadrez"
                 fill
                 priority
                 placeholder="blur"
@@ -166,7 +166,7 @@ export function SalesPage({ variant }: { variant: HeroVariant }) {
               />
             </div>
             <div className="image-caption">
-              <span>Magdiel Negrão</span>
+              <span>Magdiel</span>
               <span>Empresário, psicanalista e professor de xadrez</span>
             </div>
           </div>
@@ -237,7 +237,7 @@ export function SalesPage({ variant }: { variant: HeroVariant }) {
           <div className="authority-image">
             <Image
               src={authorityPortrait}
-              alt="Magdiel Negrão analisando uma posição no tabuleiro"
+              alt="Magdiel analisando uma posição no tabuleiro"
               fill
               placeholder="blur"
               sizes="(max-width: 800px) 100vw, 48vw"
@@ -247,7 +247,7 @@ export function SalesPage({ variant }: { variant: HeroVariant }) {
             <p className="eyebrow">Quem conduz a auditoria</p>
             <h2>Experiência de quem escolhe com dinheiro real na mesa.</h2>
             <p>
-              Magdiel Negrão tem 12 anos de empresa. Trabalhou com vendas online, Shopee, Mercado Livre e uma empresa de brindes. Nesse caminho, contratou errado, comprou estoque que encalhou e vendeu fiado para quem não pagou.
+              Magdiel tem 12 anos de empresa. Trabalhou com vendas online, Shopee, Mercado Livre e uma empresa de brindes. Nesse caminho, contratou errado, comprou estoque que encalhou e vendeu fiado para quem não pagou.
             </p>
             <p>
               Em vez de chamar tudo isso de azar, foi estudar o que acontece na cabeça de quem escolhe. No xadrez, encontrou um campo prático para decisões sob pressão. Na psicanálise, uma leitura para entender por que a primeira consequência seduz.
@@ -444,7 +444,7 @@ export function SalesPage({ variant }: { variant: HeroVariant }) {
 
       <footer className="footer">
         <div className="container footer-grid">
-          <div><strong>Magdiel Negrão</strong><span>Método Arquitetura da Decisão</span></div>
+          <div><strong>Magdiel</strong><span>Método Arquitetura da Decisão</span></div>
           <p>Auditoria das Decisões que Custam Dinheiro</p>
           <Link href="#top">Voltar ao início</Link>
         </div>

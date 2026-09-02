@@ -16,7 +16,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Auditoria das Decisões que Custam Dinheiro | Magdiel Negrão",
+  title: "Auditoria das Decisões que Custam Dinheiro | Magdiel",
   description:
     "Aula ao vivo para transformar escolhas caras do negócio em uma conta clara e preparar a próxima decisão.",
   robots: { index: false, follow: false },
