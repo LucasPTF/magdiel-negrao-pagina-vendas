@@ -400,7 +400,11 @@ export function SalesPage({ variant }: { variant: HeroVariant }) {
 
       <section className="guarantee section cream">
         <div className="container guarantee-card">
-          <div className="seal" aria-label="Garantia de 15 dias"><strong>15</strong><span>dias</span></div>
+          <div className="seal" aria-label="Garantia de 15 dias">
+            <span className="seal-label">garantia</span>
+            <strong className="seal-number">15</strong>
+            <span className="seal-unit">dias</span>
+          </div>
           <div>
             <p className="eyebrow">Garantia sem pergunta</p>
             <h2>Ou você termina com um número calculado, ou o risco fica com o Magdiel.</h2>

@@ -847,14 +847,17 @@ h3 {
 }
 
 .seal {
+  --seal-size: 164px;
   position: relative;
   display: grid;
-  width: 164px;
-  height: 164px;
+  width: var(--seal-size);
+  height: var(--seal-size);
   border: 1px solid var(--bronze);
   border-radius: 50%;
+  grid-template-rows: 14px 70px 14px;
   align-content: center;
   justify-items: center;
+  row-gap: 3px;
   color: #7d5a33;
 }
 
@@ -874,19 +877,28 @@ h3 {
   inset: 14px;
 }
 
-.seal strong {
-  font-family: var(--font-display), Georgia, serif;
-  font-size: 70px;
-  font-weight: 600;
-  letter-spacing: -0.05em;
-  line-height: 0.75;
+.seal-label,
+.seal-unit {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  line-height: 14px;
+  text-transform: uppercase;
 }
 
-.seal span {
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+.seal-number {
+  display: grid;
+  width: 100%;
+  height: 70px;
+  margin: 0;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 66px;
+  font-variant-numeric: lining-nums tabular-nums;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 70px;
+  text-align: center;
 }
 
 .guarantee h2 {
@@ -1203,8 +1215,20 @@ h3 {
   }
 
   .seal {
-    width: 142px;
-    height: 142px;
+    --seal-size: 142px;
+    grid-template-rows: 12px 52px 12px;
+    row-gap: 2px;
+  }
+
+  .seal-label,
+  .seal-unit {
+    line-height: 12px;
+  }
+
+  .seal-number {
+    height: 52px;
+    font-size: 48px;
+    line-height: 52px;
   }
 
   .footer-grid {
